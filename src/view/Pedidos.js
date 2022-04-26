@@ -1,4 +1,3 @@
-import '../css/mainpage.css'
 
 export default function Pedidos() {
   return (

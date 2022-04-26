@@ -1,25 +1,18 @@
-
-.div-navbar{
-    background-color: #DAB88B;
-    height: 5rem;    
-   
-}
-.navbar{
+.div-navbar {
+    background-color: #dab88b;
+    height: 5rem;
+  }
+  .navbar {
     height: 100%;
     width: 100%;
     padding-top: 0;
     padding-bottom: 0;
-}
-/* .logo{
-    width:8rem;
-    height: 6.5rem;
-    
-} */
 
-.links
-{
+  }
+  
+  .links {
     border-bottom: black;
-    background-color: #DAB88B;
+    background-color: #dab88b;
     height: 5rem;
     width: 8rem;
     font-size: 1.4rem;
@@ -32,22 +25,21 @@
     box-sizing: border-box;
     color: black;
     display: inline-block;
-
-}
-.mesero-boton,
-.chef-boton,
-.pedidos-boton{
+  }
+  .mesero-boton,
+  .chef-boton,
+  .pedidos-boton {
     border-bottom: 8px;
     border-color: black;
-    border-style:solid ;
-}
-.img-logo{
-    height: 5rem;
+    border-style: solid;
+  }
+  .img-logo {
+    height: 4rem;
     width: 8rem;
-    position:relative;
-}
-.navbar li {
+  }
+  .navbar li {
     display: inline-block;
     text-align: center;
     background-color: aquamarine;
-}
+  }
+  
