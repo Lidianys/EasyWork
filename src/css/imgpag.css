@@ -1,0 +1,9 @@
+.logopag{
+    width: 25.5rem;
+    height: 25.5rem;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    display: inline-flexbox;
+}
