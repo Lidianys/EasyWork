@@ -7,11 +7,9 @@
     width: 100%;
     padding-top: 0;
     padding-bottom: 0;
-
-  }
-  
+} 
   .links {
-    border-bottom: black;
+    border-color: black;
     background-color: #dab88b;
     height: 5rem;
     width: 8rem;
@@ -25,13 +23,13 @@
     box-sizing: border-box;
     color: black;
     display: inline-block;
+    border-style: solid;
   }
   .mesero-boton,
   .chef-boton,
   .pedidos-boton {
-    border-bottom: 8px;
+    border-bottom: 1px;
     border-color: black;
-    border-style: solid;
   }
   .img-logo {
     height: 4rem;
@@ -40,6 +38,20 @@
   .navbar li {
     display: inline-block;
     text-align: center;
-    background-color: aquamarine;
+  }
+  .tabs-productos{
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s all;
+    border-color: black;
+    border-radius: 2px;
+  }
+  .tabs-productos:active{
+    background-color: var(--colorYellow);
+    transform: scale(0.98);
+    border-color: black;
   }
   
+  .active-tabs-productos  {
+    background-color: #42A5FF;
+  }

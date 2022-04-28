@@ -5,7 +5,7 @@ import Pedidos from  './view/Pedidos.js';
 import Mesero from  './view/Mesero.js';
 import Chef from  './view/Chef.js';
 import NotFound from './view/NotFound.js';
-import Navbar from './components/navbar.js';
+import Navbar from './components/Navbar.js';
 
 function App() {
   return (

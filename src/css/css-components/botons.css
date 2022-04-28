@@ -1,0 +1,37 @@
+.tabs-productos {
+    margin: 0;
+    background-color: whitesmoke;
+    width: 6rem;
+    height: 3rem;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 1px 1px 1px 1px #dab88b;
+    transition: 0.2s all;
+    border-color: black;
+
+  }
+  .tabs-productos:active{
+    background-color: var(--colorYellow);
+    transform: scale(0.98);
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.308);
+  }
+  
+  .active-tabs-productos  {
+    background-color: var(--colorYellow);
+  }
+  .content {
+    display: none;
+  }
+ 
+  .active-content {
+    display: block;
+  }
+  .almuerzo,
+  .desayuno{
+      font-size: 1rem;
+      text-align: center;
+      line-height: 1rem;
+      justify-content: center;
+      border-color: black;
+  }

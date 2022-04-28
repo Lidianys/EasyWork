@@ -1,4 +1,4 @@
-import '../css/notfound.css'
+import '../css/css-view/notfound.css'
 export default function NotFound() {
  return(
     <div className="container">
@@ -6,7 +6,5 @@ export default function NotFound() {
             <img src={require("../imagenes/notfound.png") } alt="NotFound" className="rounded mx-auto d-block notfound"/>
         </div>
     </div>
-
-
  )   
 }

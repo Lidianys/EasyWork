@@ -1,4 +1,4 @@
-import '../css/imgpag.css'
+import '../css/css-view/home.css'
 export default  function Home( ) {
     return( 
         <div className='d-flex justify-content-center container'>
