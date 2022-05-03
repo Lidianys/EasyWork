@@ -1,5 +1,7 @@
 import { useState } from "react";
 import '../css/css-components/botons.css';
+import Desayuno from '../components/Desayuno';
+import Almuerzo from '../components/Almuerzo';
 
 export default function Botons() {
   const [tabState, settabState] = useState(1);
@@ -18,6 +20,7 @@ export default function Botons() {
               : "tabs-productos"
           }
           onClick={() => tabValue(1)}
+         
         >
           <p className="desayuno">
             Desayuno
@@ -36,15 +39,14 @@ export default function Botons() {
           </p>
         </button>
       </div>
-      {/* Componente form */}
+      
 
       <div className={tabState === 1 ? "content  active-content" : "content"}>
-        {/* Convertir a archivo .json para mostrarlo */}
-
+        <Desayuno/>
       </div>
 
       <div className={tabState === 2 ? "content  active-content" : "content"}>
-
+      <Almuerzo/>
       </div>
 
     </div>

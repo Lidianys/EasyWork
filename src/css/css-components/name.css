@@ -1,0 +1,15 @@
+.name{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   
+}
+.nombre{
+    width: 10rem;
+    margin-right: 4rem;
+    height: 2rem;
+}
+.mesa{
+    width: 4rem;
+    height: 2rem;
+}

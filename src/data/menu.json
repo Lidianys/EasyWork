@@ -1,0 +1,66 @@
+{
+    "desayunos": [
+        {
+            "id": "des1",
+            "name": "Panquecas con miel",
+            "price": 5000
+        },
+        {
+            "id": "des2",
+            "name": "Croissant con nutella ",
+            "price": 3000
+        },
+        {
+            "id": "des3",
+            "name": "Sandwich de jamon y queso",
+            "price": 6000
+        },
+        {
+            "id": "des1",
+            "name": "Sandwich cubano",
+            "price": 13000
+        },
+        {
+            "id": "des4",
+            "name": "Te",
+            "price": 2000
+        },
+        {
+            "id": "des5",
+            "name": "Cafe",
+            "price": 2500
+        }
+    ],
+    "almuerzo":[
+        {
+            "id": "alm1",
+            "name": "Sandwich cubano",
+            "price": 13000
+        },
+        {
+            "id": "alm2",
+            "name": "Sandwich cubano",
+            "price": 13000
+        },
+        {
+            "id": "alm3",
+            "name": "Sandwich cubano",
+            "price": 13000
+        },
+        {
+            "id": "alm4",
+            "name": "Sandwich cubano",
+            "price": 13000
+        },
+        {
+            "id": "alm5",
+            "name": "Jugo",
+            "price": 2000
+        },
+        {
+            "id": "alm6",
+            "name": "Bebida",
+            "price": 2000
+        }
+    ]
+}

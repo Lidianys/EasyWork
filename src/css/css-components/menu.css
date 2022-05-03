@@ -1,0 +1,20 @@
+.container-menu {
+    width: 75%;
+    text-align: center;
+}
+
+.container-products {
+    background-color: antiquewhite;
+    border-color: black;
+    border-style: outset;
+    display: inline-flex;
+    padding: 0.2rem;
+    height: 3rem;
+    width: 100%;
+
+}
+
+.precio{
+text-align: right;
+margin-left: auto;
+}
