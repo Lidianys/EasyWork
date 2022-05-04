@@ -16,17 +16,17 @@
             "price": 6000
         },
         {
-            "id": "des1",
+            "id": "des4",
             "name": "Sandwich cubano",
             "price": 13000
         },
         {
-            "id": "des4",
+            "id": "des5",
             "name": "Te",
             "price": 2000
         },
         {
-            "id": "des5",
+            "id": "des6",
             "name": "Cafe",
             "price": 2500
         }
