@@ -1,0 +1,35 @@
+.pedido-container{
+    
+}
+.article{
+   
+}
+.pedido-cocina{
+  
+}
+.table{
+    background-color: bisque;
+    border-color: black;
+    border-style: double;
+    display:grid ;
+    align-content: center;
+    align-content: space-between;
+    grid-template-columns: auto auto ;
+    
+}
+.container{
+
+    
+}
+.div-name{
+    display: inline-flex;
+    text-align: center;
+ 
+
+}
+.name,
+.mesa{
+    color: black;
+    display: flex;
+    padding: 20px;
+}

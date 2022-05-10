@@ -1,3 +1,4 @@
+import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
 import Home from  './view/Home.js';
@@ -6,9 +7,11 @@ import Mesero from  './view/Mesero.js';
 import Chef from  './view/Chef.js';
 import NotFound from './view/NotFound.js';
 import Navbar from './components/Navbar.js';
+import {UseStates} from './userContent/usercontent';
 
 function App() {
   return (
+    <UseStates>
     <BrowserRouter>
     <Navbar/>
       <Routes>
@@ -17,11 +20,9 @@ function App() {
         <Route path='/chef' element={<Chef/>} />
         <Route path='/pedidos' element={<Pedidos/>} />
         <Route path='/*' element={<NotFound/>} />
-
-
-
       </Routes>
     </BrowserRouter>
+    </UseStates>
   );
 }
 
