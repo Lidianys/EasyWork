@@ -19,20 +19,19 @@ export default function Chef() {
     const getOrdersData = async () => {
 
         const p = await getOrders();
-
-        console.log(p.docs[0].data());
         setOrdenes(p.docs);
     }
 
     return (
 
         <div className="pedido-container">
-            <article className='d-flex article'>
+            
                 <div className="pedido-cocina">
-                    <table className="table">
+                   
                        
                         {ordenes.map(element => {
                             return (
+                                <table className="table-pedido">
                                 <tbody className="container">
                                     <div className="div-name">
                                         <p className="name" >Name: {element.data().clientName}</p>
@@ -41,11 +40,9 @@ export default function Chef() {
 
                                     {element.data().order.map(item => {
                                         return (
-                                            <table className="table ">
-                                                <thead>
-
-                                                </thead>
-                                                <tbody>
+                                           
+                                             
+                                                
                                                     <tr>
                                                         <td>{item.count} </td>
                                                         <td>{item.name} </td>
@@ -53,19 +50,19 @@ export default function Chef() {
 
 
                                                     </tr>
-                                                </tbody>
-                                            </table>
+                                               
                                             
                                         )
                                     })}
                                     <p> Total: {element.data().total} </p>
                                     <p> Estado: {element.data().state} </p>
                                 </tbody>
+                                </table>
                             )
                         })}
-                    </table>
+                 
                 </div>
-            </article>
+         
 
         </div>
     )

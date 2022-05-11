@@ -1,25 +1,28 @@
 .pedido-container{
-    
-}
-.article{
    
+    
+    width: auto;
+    height: auto;
 }
 .pedido-cocina{
-  
+    grid-template-columns: auto auto;
+    display:grid ;
+    box-sizing: border-box;
+    padding: 10px;
+    gap: 20px;
+    width: 100%;
 }
-.table{
-    background-color: bisque;
+.table-pedido{
     border-color: black;
     border-style: double;
-    display:grid ;
-    align-content: center;
-    align-content: space-between;
-    grid-template-columns: auto auto ;
+    background-color: bisque;
+   
     
 }
 .container{
-
     
+    width: 200px;
+    height: 200px;
 }
 .div-name{
     display: inline-flex;

@@ -6,6 +6,7 @@ export const UseStates = ({children}) => {
     const [cart, setCart] = useState([]);
     const [name, setName] = useState("");
     const [mesa, setMesa] = useState("");
+   
 
 return(
  < UserContexts.Provider value={{
@@ -14,7 +15,8 @@ return(
    name,
     setName,
     mesa,
-    setMesa,}}>
+    setMesa,
+   }}>
       
   {children}
  </ UserContexts.Provider>

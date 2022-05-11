@@ -7,8 +7,7 @@ export default function Productos() {
           <div>
               <h1 className='productos'>Productos</h1>
               <Botons/>
-              {/* <Show/> */}
-
+             
 
           </div>
         </aside>

@@ -4,7 +4,7 @@ import { UserContexts } from '../userContent/usercontent';
 import '../css/css-components/agregar.css';
 import '../css/css-components/agregar.css'
 import {db} from '../firebase/firebase';
-import { collection, addDoc } from  'firebase/firestore';;
+import { collection, addDoc } from  'firebase/firestore';
 
 export default function Agregar() {
     const { cart, setCart, name,
@@ -14,14 +14,7 @@ export default function Agregar() {
 /* Agregar a base de datos de firebase */
 const addOrder = async (e) => {
     e.preventDefault();
-    /* Alert & Manejo de errores */
-    // if (!name.trim() || !mesa.trim() || mesa === "N° Mesa") {
-    //   return console.log('error');
-    // } else if (cart.length === 0) {
-    //   return console.log('error');;
-    // }
-    // console.log('correct');;
-
+ 
     try {
         console.log(db);
       const docRef = await addDoc(collection(db, "products"), {
@@ -85,9 +78,7 @@ const addOrder = async (e) => {
              <p>Total: {total}</p>
 
             <div>
-                <button type='submit'>
-                    Enviar
-                </button>
+               <button type='submit'>Enviar</button>
             </div>
 
         </form>)
