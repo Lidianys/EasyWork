@@ -8,9 +8,9 @@ export default function Name() {
 
     return (
         <div className='name'>
-            <input type="text" className="form-control nombre" placeholder="Nombre del cliente" aria-label="Nombre" aria-describedby="addon-wrapping"  value={name.slice(0, 20)}
+            <input type="text" className="form-control nombre-input" placeholder="Nombre del cliente" aria-label="Nombre" aria-describedby="addon-wrapping"  value={name.slice(0, 20)}
               onChange={(e) => setName(e.target.value)}/>
-            <input type="number" className="form-control mesa" placeholder="Mesa" aria-label="Numero" aria-describedby="addon-wrapping" value={mesa}
+            <input type="number" className="form-control mesa-input" placeholder="Mesa" aria-label="Numero" aria-describedby="addon-wrapping" value={mesa}
               onChange={(e) => setMesa(e.target.value)} />
 
         </div>

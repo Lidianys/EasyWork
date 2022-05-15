@@ -31,22 +31,24 @@ export default function Chef() {
                        
                         {ordenes.map(element => {
                             return (
-                                <table className="table-pedido">
-                                <tbody className="container">
+                                
+                                <div className="div-general">
                                     <div className="div-name">
-                                        <p className="name" >Name: {element.data().clientName}</p>
-                                        <p className="mesa">Mesa: {element.data().clientTable}</p>
+                                        <p className="p-name" >Name:{ element.data().clientName}</p>
+                                        <p className="p-mesa">Mesa:{ element.data().clientTable}</p>
                                     </div>
-
+                                   
+                                    <table className="tabla-pedido table-bordered">
+                                    <tbody className="container">
                                     {element.data().order.map(item => {
                                         return (
                                            
-                                             
+                                            
                                                 
-                                                    <tr>
-                                                        <td>{item.count} </td>
-                                                        <td>{item.name} </td>
-                                                        <td>{item.price} </td>
+                                                    <tr className="items">
+                                                        <td className="filas-number">{item.count}</td>
+                                                        <td className="filas-name">{item.name} </td>
+                                                        
 
 
                                                     </tr>
@@ -54,10 +56,15 @@ export default function Chef() {
                                             
                                         )
                                     })}
-                                    <p> Total: {element.data().total} </p>
-                                    <p> Estado: {element.data().state} </p>
-                                </tbody>
+                                     </tbody>
                                 </table>
+                                    <div className="div-estado">
+                                    <p className="estadoPedido"> Estado:{element.data().state} </p>
+                                    <button className="estado-listo btn btn-outline-secondary">Listo</button>
+                                    </div>
+                                    
+                               
+                                </div>
                             )
                         })}
                  

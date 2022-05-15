@@ -18,10 +18,25 @@ font-size: 1rem
 {
     font-size: 0.8rem;
 }
-.n1,
-.n2,
-.n3{
+.item-number,
+.item-name,
+.item-price{
 font-size: 0.7rem;
 height: 1rem;
 
+}
+.item-name{
+    width: 8rem ;
+}
+.item-price{
+    width: 4rem;
+}
+.button-eliminar{
+    width: 3rem;
+}
+.item-number{
+    width: 2.2rem;
+}
+.total-enviar{
+    text-align: center;
 }

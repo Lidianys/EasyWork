@@ -4,12 +4,14 @@
     justify-content: center;
    
 }
-.nombre{
+.nombre-input{
     width: 10rem;
     margin-right: 4rem;
-    height: 2rem;
+  height: 2rem;
 }
-.mesa{
+.mesa-input{
     width: 4rem;
     height: 2rem;
-}
+
+    }
+    

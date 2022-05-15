@@ -3,7 +3,7 @@ import Cuenta from '../components/Cuenta';
 import '../css/css-view/mesero.css'
 export default function Mesero() {
     return (
-        <div className='containers' >
+        <div className='containers mt-3' >
         <div className='row'>
             <article className='col-6'>
                 <Productos />

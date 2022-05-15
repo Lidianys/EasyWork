@@ -5,7 +5,7 @@ export default function Productos() {
     return(
         <aside>
           <div>
-              <h1 className='productos'>Productos</h1>
+              <p className='text-center fw-bold'>Productos</p>
               <Botons/>
              
 
